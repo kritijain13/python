@@ -1,0 +1,10 @@
+s=input('enter a string')
+vowel='aeiouAEIOU'
+count=0
+for i in s:
+    if i in vowel:
+        print(i)
+        count+=1
+print(count)
+        
+        
