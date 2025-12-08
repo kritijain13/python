@@ -1,0 +1,12 @@
+plate=input('enter a plate')
+has_digit=False
+has_alpha=False
+for i in plate:
+    if i.isdigit():
+        has_digit=True
+    elif i.isalpha():
+        has_alpha=True
+if has_digit and has_alpha:
+    print('valid vcihel plate')
+else:
+    print('invalid vechial plate')
