@@ -1,0 +1,8 @@
+#Take a number input and count how many digits it has.
+n = input('enter a num')
+count=0
+for i in n:
+    if i.isdigit():
+        count+=1
+        
+print( 'total',count)
