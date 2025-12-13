@@ -1,0 +1,9 @@
+n=int(input('enter by user'))
+base=1
+decimal=0
+while n>0:
+    rem=n%10
+    decimal=decimal+rem*base
+    n=n//10
+    base=base*2
+print(decimal)
