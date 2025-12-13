@@ -1,0 +1,13 @@
+n=int(input('enter a user'))
+length=len(str(n))
+c=n
+sum=0
+while n>0:
+ digit=n%10
+ sum=sum+digit**length
+ n=n//10
+print(sum)
+if sum==n:
+ print('num is armstrong')
+else:
+ print('not')
