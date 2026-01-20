@@ -1,0 +1,4 @@
+list=[1,2,4,5,6]
+n=len(list)+1
+missing=(n*(n+1))//2-sum(list)
+print('missing num is',missing)
