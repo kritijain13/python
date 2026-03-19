@@ -1,0 +1,6 @@
+def fun(n):
+    if n==20:
+        return
+    print(f'even number is{n}')
+    fun(n+2)
+fun(0)
