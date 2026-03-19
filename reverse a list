@@ -1,0 +1,9 @@
+
+li=[5,3,2,1]
+strt=0
+end=len(li)-1
+while strt<end:
+    li[strt],li[end]=li[end],li[strt]
+    strt+=1
+    end-=1
+print(li)
