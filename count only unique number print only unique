@@ -1,0 +1,7 @@
+
+num=[4,5,1,2,4,5,2,0,3]
+li=[]
+for i in num:
+    if num.count(i)==1:
+        li.append(i)
+print(li)
